@@ -1,0 +1,304 @@
+.main {
+  background: #feef9f;
+  width: 460px;
+  max-height: 800px;
+  overflow: scroll;
+  margin-left: 42%;
+  overflow: auto;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  
+}
+.main::-webkit-scrollbar { 
+  width: 0 !important;
+  display: none; 
+}
+.main-top3-ranking{
+  display: flex; 
+  margin-top: 17px
+}
+.top3-ranking {
+  display: flex;
+  justify-content: center;
+}
+.post-title{
+  padding-right: 155px
+}
+.top3-image-king {
+  width: 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.color-score {
+  color: orange;
+}
+
+.sticky-bottom {
+  position: fixed;
+  bottom: 0;
+}
+.date-postItem{
+  display: flex;
+  margin-top: 10px;
+}
+.date-Monthly{
+  padding-left: 92px
+}
+.header-nav {
+
+  background-color: #fea014;
+  position: fixed;
+  top: 0;
+  width: 459px;
+  z-index: 2;
+}
+
+.top-ranking {
+  background: #feef9f;
+  margin-top: 70px;
+}
+.main-background-postitem {
+  background-color: #ededed
+}
+.main-postItem{
+  text-align: center;
+  margin-top: 66px;
+}
+.post-item-distance {
+  position: absolute;
+  left: 360px;
+  bottom: 20px;
+}
+
+.right-postitem {
+  position: absolute;
+  left: 115px;
+  bottom: -1px;
+}
+.image-postitem{
+  width: 48px;
+  margin-left: 15px;
+}
+.span-postItem{
+  opacity: 0.6;
+}
+.postitem-userCurrent {
+  margin-top: 5px;
+  position: sticky;
+  bottom: 0;
+  background-color: #fea014;
+}
+.postItem-dowright{
+  width: 30px;
+}
+.image-userCurrent {
+  width: 48px;
+  margin-left: 12px;
+}
+
+.right-postitem-current {
+  position: absolute;
+  left: 115px;
+  bottom: -2px;
+}
+
+.right-image-postitem-current {
+  position: absolute;
+  left: 360px;
+  bottom: 20px;
+}
+
+.span-userCurrent {
+  opacity: 0.6;
+  color: rgb(241, 241, 240);
+}
+
+
+.card-main {
+  border-radius: 35px 35px 0 0;
+  margin-top: 12px;
+}
+.card-post{
+  text-align: justify;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+button {
+  border-color: white;
+}
+
+#button1 {
+
+  opacity: 1;
+  color: white;
+  border-radius: 75px;
+  width: 170px;
+  background-color: orange;
+  text-align: center;
+
+}
+
+#button2 {
+  opacity: 0.4;
+  border: none;
+  background-color: white;
+  color: black;
+
+}
+
+#button2.lim {
+  opacity: 1;
+  color: white;
+  border-radius: 75px;
+  width: 170px;
+  background-color: orange;
+  text-align: center;
+
+  border: none;
+}
+
+
+#button1.dim {
+  opacity: 0.4;
+  border: none;
+  background-color: white;
+  color: black;
+
+
+
+}
+
+#button2.dim {
+  opacity: 0.4;
+  border: none;
+  background-color: white;
+  color: black;
+  text-align: left;
+
+}
+
+
+#link1 {
+  opacity: 0.5;
+  /* text-decoration: underline red; */
+  color: black;
+}
+
+#link2 {
+  opacity: 0.5;
+  text-decoration: none;
+  color: black;
+
+
+}
+
+#link2.lim {
+  opacity: 1;
+  text-decoration: underline red;
+  color: black;
+
+}
+
+#link1.lim {
+  opacity: 1;
+  text-decoration: underline red;
+  color: black;
+
+}
+#link1.dim,
+#link2.dim {
+  opacity: 0.5;
+  text-decoration: none;
+  color: black;
+
+}
+
+.fonweight {
+  font-weight: bold;
+}
+.font-weight{
+  font-weight: 700;  
+}
+.scroll-container {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+}
+
+.scroll-container:before {
+  content: '';
+  display: block;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.scroll-container a {
+  position: sticky;
+  top: 88vh;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.hrstyle {
+  width: 50px;
+  background: black;
+  margin: 15px 0 20px;
+}
+
+.top3-ranking {
+  display: flex;
+  justify-content: center;
+}
+
+.style-top-ranking {
+  margin-top: 12px;
+}
+
+.font-size {
+  font-weight: 600;
+}
+#current-user{
+  font-weight: 600;
+    font-size: 18px;
+}
+#not-posts{
+  text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+}
+.drop_btn{
+  font-size: 20px;
+    font-weight: 600;
+}
+
+
+.fa-sharp {
+ 
+   transform: rotateZ(-180deg);
+  
+  transform-origin: center;
+  transition: 0.3s linear;
+}
+.fa-sharp.down {
+ 
+ transform: rotateY(0);
+  transform-origin: center;
+  transition: 0.3s linear;
+}
+
+.drop_container {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+.drop_container.show {
+  max-height: 1000px;
+  transition: max-height 0.3s ease-in;
+}
+
+
